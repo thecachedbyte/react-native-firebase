@@ -94,14 +94,14 @@ repositories {
     // Running React Native from sources locally or for ExpoKit
     def androidSourcesDir = new File(
       parentDir,
-      'node_modules/react-native'
+      'goibibo_mobile/afore/node_modules/react-native'
     )
 
     // Official releases of React Native come with a prebuilt version of Android sources
     // in ./android, e.g. react-native/android/**/react-native-0.57.1.aar
     def androidPrebuiltBinaryDir = new File(
       parentDir,
-      'node_modules/react-native/android'
+      'goibibo_mobile/afore/node_modules/react-native/android'
     )
 
     if (androidPrebuiltBinaryDir.exists()) {
